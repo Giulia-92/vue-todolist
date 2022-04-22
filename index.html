@@ -12,7 +12,27 @@
 </head>
 <body>
 
+<div id="lista">
+    <ul>
+        <li v-if="tiramisu.lenght === 0">Mancano degli ingredienti : Inseriscili</li>
+        <li :class="{'text-decoration-line-through':ingrediente.check}" v-for="(ingrediente,index) in tiramisu" :key="index"> <span @click="ingrediente.check = !ingrediente.check">
+            {{ingrediente.nomeIngrediente}}</span>
+            <i @click="rimuovi(index)" class="fa-solid fa-xmark"></i>
+        </li>
+    </ul>
+    <div class="input-group mb-3">
+        <input @keyup.enter="aggiungi" type="text" class="form-control" placeholder="ingrediente" aria-label="ingrediente" v- model="nuovoIngrediente">
+        <button @click="aggiungi(index)" class="btn btn-outline-secondary" type="button">Aggiungi ingrediente</button>
+      </div>
 
+
+
+
+
+
+
+
+</div>
 
 
 
