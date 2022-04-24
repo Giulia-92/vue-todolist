@@ -37,10 +37,10 @@ const toodolist = new Vue ({
         aggiungi(i){
         const ingrediente = {
             check: false,
-            nomeIngrediente: this.nuovoIngrediente,
+            nomeIngrediente:this.nuovoIngrediente,
         }
            this.tiramisu.push(ingrediente)
-           this.nuovoIngrediente = '';
+           this.nuovoIngrediente ;
 
         },
         rimuovi(i){

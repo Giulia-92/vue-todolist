@@ -1,0 +1,35 @@
+main{
+    background-color: rgb(199, 199, 202);
+    display: flex;
+    justify-content: center;
+    
+}
+.bott{
+    background-color:rgb(90, 207, 198);
+    border-radius: 20px;
+    font-size:20px;
+    box-shadow:10px 5px 5px rgba(54, 54, 53, 0.856);
+    border: hidden;
+}
+h1{
+    color:rgb(10, 10, 102);
+    font-family:'Square Peg', corsivo;
+    margin-left: 50px; 
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+main{
+    background-color: rgb(182, 230, 231);
+}
+
+ul,li{
+    color:rgb(10, 10, 102);
+    font-family:'Square Peg', corsivo;
+    font-size: 30px;
+}
+.fa-solid {
+    color:rgb(10, 10, 102);
+}
