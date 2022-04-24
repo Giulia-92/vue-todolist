@@ -29,6 +29,7 @@ ul,li{
     color:rgb(10, 10, 102);
     font-family:'Square Peg', corsivo;
     font-size: 30px;
+    list-style-type: none;
 }
 .fa-solid {
     color:rgb(10, 10, 102);
